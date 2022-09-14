@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - program execution start
+ * print_alphabet - print alphabet to terminal
  *
  * Return: void
  */
@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 	char letter = 'a';
 
-	while (letter <= 'z');
+	while (letter <= 'z')
 	{
 		_putchar(letter);
 		letter++;
