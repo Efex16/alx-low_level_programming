@@ -2,7 +2,7 @@
 
 /**
  * _isupper - determine if a character is a uppercase
- * @c: character to be evaluated
+ * @c: the integer representing the ASCII code of the character
  *
  * Return:1 (uppercase) or 0 (not uppercase)
  */
