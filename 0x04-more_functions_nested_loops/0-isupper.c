@@ -6,7 +6,7 @@
  *
  * Return: if uppercase returns 0 otherwise
  */
-int _isupper(int c)
+int _isupper(void)
 {
 	if (c >= 'A' && c <= 'Z')
 
