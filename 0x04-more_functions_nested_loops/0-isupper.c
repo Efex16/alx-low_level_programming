@@ -3,13 +3,16 @@
 /**
  * _isupper - check for upper case character
  * @c: character that is checked
- *
- * Return: if uppercase returns 0 otherwise
+ * Return: 0 if successful
  */
-int _isupper(void)
+int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
-
-	return (1);
-	return (0);
+	if (c >= 65 && c < 91)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
