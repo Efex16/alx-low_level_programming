@@ -15,7 +15,7 @@ int main(void)
 
 	srand (time(NULL));
 	
-	for (i = 0, suma <= 2644, i++)
+	for (i = 0; suma <= 2644; i++)
 	{
 		randNum = (rand() % 25) + 65;
 		str[i] = randNum;
