@@ -1,5 +1,5 @@
 /**
- * swap_int - switches values of first input with second inpit
+ * swap_int - switches values of first input with second input
  * @a: first value input
  * @b: second input value
  */
@@ -10,5 +10,5 @@ void swap_int(int *a, int *b)
 
 	temp = *a;
 	*a = *b;
-	*b = *a;
+	*b = temp;
 }
