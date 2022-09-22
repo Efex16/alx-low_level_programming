@@ -5,7 +5,7 @@
  * @dest: copy to
  * @src: copy from
  * @n: n
- * Return: two concat strings
+ * Return: always 0 (successful)
  */
 
 char *_strncat(char *dest, char *src, int n)

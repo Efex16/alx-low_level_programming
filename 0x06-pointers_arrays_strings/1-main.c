@@ -10,7 +10,7 @@
  
  *
  
- * Return: Always 0
+ * Return: Always 0 (successful)
  
  */
 
