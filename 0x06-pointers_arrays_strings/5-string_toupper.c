@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * string_toupper - changing all lowercase of a string to higher case
+ * string_toupper - changing all lowercase of a string to uppercase
  * @x: pointer to string
  *
  * Return: pointer to uppercase string
  */
-char spring_toupper(char *)
+char *string_toupper(char *x)
 {
 	int length;
 
@@ -15,8 +15,10 @@ char spring_toupper(char *)
 	while (x[length] != '/0')
 	{
 		if (x[length] >= 97 && x[length] <= 122)
+		{
+			x[length] = x[length] - 32;
+		}
+		length++;
 	}
-	length++;
-	
-	return 0;
+	return x;
 }
