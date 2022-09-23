@@ -12,7 +12,7 @@ char *string_toupper(char *x)
 
 	length = 0;
 
-	while (x[length] != '/0')
+	while (x[length] != '\0')
 	{
 		if (x[length] >= 97 && x[length] <= 122)
 		{
@@ -20,5 +20,5 @@ char *string_toupper(char *x)
 		}
 		length++;
 	}
-	return x;
+	return (x);
 }
