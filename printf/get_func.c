@@ -32,5 +32,5 @@ int (*get_func(char c))(va_list, flag_t *, mod_t *)
 		if (char_ids[i].symbol == c)
 			return (char_ids[i].func);
 
-	return (NULL)
+	return (NULL);
 }
