@@ -26,5 +26,5 @@ int get_flags(char elem, flag_t *f)
 			i = 1;
 			break;
 	}
-	return (i)
+	return (i);
 }
