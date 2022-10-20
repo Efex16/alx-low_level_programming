@@ -35,5 +35,5 @@ int get_modifier(char elem, mod_t *m)
 void set_width(int width, mod_t *m)
 {
 	if (width >= 0)
-		m->width = width
+		m->width = width;
 }
