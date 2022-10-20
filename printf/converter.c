@@ -24,5 +24,5 @@ char *convert(unsigned long int num, int base, int lowercase)
 		num = num / base;
 	} while (num != 0);
 
-	return (ptr)
+	return (ptr);
 }
